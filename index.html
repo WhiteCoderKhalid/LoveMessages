@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Message Generator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <h1>Love Message Generator ❤️</h1>
+        <input type="text" id="nameInput" placeholder="Enter Name">
+        <textarea id="messageInput" placeholder="Enter Love Message"></textarea>
+        <br>
+        <button onclick="generateMessage()">Generate Love Note</button>
+        <button onclick="downloadNote()">Download Note</button>
+        <div id="messageBox"></div>
+    </div>
+
+    <div class="footer">
+        <p>☕ If you love this tool, <a href="https://www.instagram.com/Khal.lydah/#" target="_blank">buy me a coffee</a> ❤️</p>
+        <p>💡 Please generate your love note before downloading it.</p>
+    </div>
+
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>
